@@ -1,0 +1,280 @@
+@charset "utf-8";
+* {
+    text-decoration: none; 
+    list-style: none;
+    font-family:  'Amatic SC', cursive,serif;
+    font-style: oblique;
+}
+.container {
+    width: 100%;
+    height: 100%;
+   
+  }
+
+header {
+      display: flex;
+      width: 100%;
+      background-color:rgba(128, 120, 120,0.5);
+      justify-content: center;
+      position: fixed;
+}
+      
+.right {
+  display: flex;
+  font-size: 50px;
+}
+.right li {
+  color: white;
+}
+.naka {
+  margin: 0 50px;
+}
+main {
+  background-image: url(../img/matrix-background.png);
+  width: 100%;
+  height: 620px;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+ }
+ .content {
+  height: 1000px;
+  width: 100%;
+  background-color: white;
+  /* background-image: url(../img/旭日旗（金背景）1800x1000.png); */
+  
+}
+ main h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+
+}
+main span {
+  font-size: 70px;
+  color: red;
+}
+.box-left {
+  height: 300px;
+  width: 400px;
+  margin: 50px;
+  
+}
+.box1 {
+  display: flex;
+}
+
+.box-left img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  border: 5px solid;
+}
+.box-right {
+  margin: 50px;
+  
+}
+.box-right h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+
+}
+.box-right p {
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  padding: 5px;
+}
+.box2 {
+  display: flex;
+}
+.box-left2 img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  border: 5px solid;
+  
+}
+.box-right2 h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.box-right2 p {
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  letter-spacing:2px ;
+}
+.box-left2 {
+  height: 300px;
+  width: 400px;
+  margin: 50px;
+  
+}
+.box-right2 {
+  margin: 50px;
+  
+}
+.uyoku {
+  background: url(../img/141210programming-w960.jpg);
+  height: 100vh;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.content2 {
+  height: 560px;
+  width: 100%;
+  background-color: white;
+  /* text-align: center; */
+  padding: 100px 0;
+  /* background-image: url(../img/旭日旗（金背景）1800x1000.png); */
+  
+}
+
+.content2 h2 {
+  font-size: 40px;
+  text-align: center;
+  
+}
+.content2 p {
+  font-size: 30px;
+  margin: 100px 50px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  letter-spacing: 3px;
+  
+  
+}
+.sayoku {
+  background: url(../img/AdobeStock_98004062.jpg);
+  height: 600px;
+  width: 100%;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  }
+.sayoku li {
+  margin-top: 40px;
+  color: black;
+  font-size: 50px;
+}
+.bob:hover {
+  background-color:rgba(128, 120, 120,0.7);
+}
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+}
+footer h3 {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+.text{
+  animation: flash 4s linear infinite;
+  display: flex;
+  font-size: 50px;
+  justify-content: flex-end;
+  
+}
+.text a {
+  color: black;
+  padding: 50px;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+  .content {
+    height: 1200px;
+  }
+  .content2 {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width:1324px) {
+  .box1 {
+    flex-direction: column;
+  }
+  .box2 {
+    flex-direction: column;
+  }
+  .content {
+    height: 2000px;
+  }
+  .content2 {
+    height: 1000px;
+  }
+}
+@media screen and (max-width:667px) {
+
+ .right li {
+   font-size: 15px;
+   margin-top: 10px;
+ }
+  .box-right {
+    display: none;
+  } 
+  
+  .box-right2 {
+    display: none;
+}
+.content2 p {
+  font-size: 20px;
+}
+.box-left  {
+ display: none;
+}
+.box-left2  {
+ display: none;
+}
+.content {
+  display: none;
+}
+.uyoku {
+  display: none;
+}
+.content2 {
+  height: 
+  1200px;
+}
+.bob li {
+  font-size: 30px;
+}
+.bob h3 {
+  font-size: 15px;
+}
+.text {
+  display: none;
+}
+
+}
+
+
+
+
+
+
+
+   
+
+
+  
